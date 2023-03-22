@@ -1,0 +1,19 @@
+.center {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
+}
+
+@media screen and (max-width: 320px) {
+    .center{
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .center {
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+}
