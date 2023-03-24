@@ -1,5 +1,5 @@
 .link {
-  transition: .4s linear;
+  transition: .4s ease-out;
 }
 
 .link:hover {
