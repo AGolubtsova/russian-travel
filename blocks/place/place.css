@@ -26,9 +26,9 @@
 }
   
 @media screen and (max-width: 767px) {
-    .place {
-      grid-template-columns: 1fr;
-      padding-bottom: 50px;
-      row-gap: 32px;
-    }
+  .place {
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+    row-gap: 32px;
+  }
 }

@@ -27,7 +27,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  transition: 3s ease-in;
+  transition: 3s ease-in-out;
 }
 
 .cover__background:hover::before {
