@@ -5,14 +5,20 @@
   margin: 0 0 26px 0;
 }
 
+.place__paragraph:last-child {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    margin: 0 0 25px 0;
   }
+}
 
-  .place__paragraph:last-of-type {
-    margin: 0;
+@media screen and (max-width: 599px) {
+  .place__paragraph {
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
